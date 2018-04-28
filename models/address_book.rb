@@ -41,6 +41,12 @@ class AddressBook
         end
     end
     
+    #delete everything
+    
+    def explosion
+        @entries = []
+    end
+    
     #search addressbook for a specific entry by name
     def binary_search(name)
         
